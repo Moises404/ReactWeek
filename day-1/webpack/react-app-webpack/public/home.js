@@ -1,0 +1,1 @@
+webpackJsonp([0],[function(module,exports,__webpack_require__){eval('var React = __webpack_require__(2);\n\nvar element = React.createElement("div", null, " My cool div")\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/Home.js\n ** module id = 0\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/Home.js?')}]);

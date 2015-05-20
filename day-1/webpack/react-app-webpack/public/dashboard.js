@@ -1,0 +1,1 @@
+webpackJsonp([1],[function(module,exports,__webpack_require__){eval("var React = __webpack_require__(2);\nconsole.log('dash');\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/Dashboard.js\n ** module id = 0\n ** module chunks = 1\n **/\n//# sourceURL=webpack:///./app/Dashboard.js?")}]);
