@@ -1,4 +1,4 @@
-var React = require('react');
+var React = require('react/addons');
 
 var AddItem = React.createClass({
 	getInitialState: function () {

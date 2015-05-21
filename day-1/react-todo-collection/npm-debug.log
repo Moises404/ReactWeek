@@ -1,0 +1,76 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/moises404/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react/addons',
+1 verbose cli   '--save' ]
+2 info using npm@2.1.18
+3 info using node@v0.10.29
+4 warn package.json react-mini-todo@0.0.0 No repository field.
+5 warn package.json react-mini-todo@0.0.0 No README data
+6 warn package.json node-libs-browser@0.5.0 No repository field.
+7 silly cache add args [ 'react/addons', null ]
+8 verbose cache add spec react/addons
+9 silly cache add parsed spec { raw: 'react/addons',
+9 silly cache add   scope: null,
+9 silly cache add   name: null,
+9 silly cache add   rawSpec: 'react/addons',
+9 silly cache add   spec: 'react/addons',
+9 silly cache add   type: 'github' }
+10 info maybeGithub Attempting react/addons from git://github.com/react/addons
+11 verbose addRemoteGit u="git://github.com/react/addons" silent=true
+12 silly addRemoteGit normalized { url: 'git://github.com/react/addons', branch: 'master' }
+13 silly addRemoteGit v git-github-com-react-addons-efdcb9f8
+14 verbose addRemoteGit /Users/moises404/.npm/_git-remotes/git-github-com-react-addons-efdcb9f8 not in flight; cloning
+15 info git [ 'clone',
+15 info git   '--template=/Users/moises404/.npm/_git-remotes/_templates',
+15 info git   '--mirror',
+15 info git   'git://github.com/react/addons',
+15 info git   '/Users/moises404/.npm/_git-remotes/git-github-com-react-addons-efdcb9f8' ]
+16 verbose git clone git://github.com/react/addons Cloning into bare repository '/Users/moises404/.npm/_git-remotes/git-github-com-react-addons-efdcb9f8'...
+16 verbose git clone git://github.com/react/addons fatal: remote error:
+16 verbose git clone git://github.com/react/addons   Repository not found.
+17 info maybeGithub Attempting react/addons from git+ssh://git@github.com:react/addons
+18 verbose addRemoteGit u="git+ssh://git@github.com:react/addons" silent=false
+19 silly addRemoteGit normalized { url: 'ssh://git@github.com/react/addons', branch: 'master' }
+20 silly addRemoteGit v ssh-git-github-com-react-addons-69e672b5
+21 verbose addRemoteGit /Users/moises404/.npm/_git-remotes/ssh-git-github-com-react-addons-69e672b5 not in flight; cloning
+22 info git [ 'clone',
+22 info git   '--template=/Users/moises404/.npm/_git-remotes/_templates',
+22 info git   '--mirror',
+22 info git   'ssh://git@github.com/react/addons',
+22 info git   '/Users/moises404/.npm/_git-remotes/ssh-git-github-com-react-addons-69e672b5' ]
+23 error git clone ssh://git@github.com/react/addons Cloning into bare repository '/Users/moises404/.npm/_git-remotes/ssh-git-github-com-react-addons-69e672b5'...
+23 error git clone ssh://git@github.com/react/addons Permission denied (publickey).
+23 error git clone ssh://git@github.com/react/addons fatal: Could not read from remote repository.
+23 error git clone ssh://git@github.com/react/addons
+23 error git clone ssh://git@github.com/react/addons Please make sure you have the correct access rights
+23 error git clone ssh://git@github.com/react/addons and the repository exists.
+24 verbose stack Error: Command failed: Cloning into bare repository '/Users/moises404/.npm/_git-remotes/ssh-git-github-com-react-addons-69e672b5'...
+24 verbose stack Permission denied (publickey).
+24 verbose stack fatal: Could not read from remote repository.
+24 verbose stack
+24 verbose stack Please make sure you have the correct access rights
+24 verbose stack and the repository exists.
+24 verbose stack
+24 verbose stack     at ChildProcess.exithandler (child_process.js:647:15)
+24 verbose stack     at ChildProcess.emit (events.js:98:17)
+24 verbose stack     at maybeClose (child_process.js:755:16)
+24 verbose stack     at Socket.<anonymous> (child_process.js:968:11)
+24 verbose stack     at Socket.emit (events.js:95:17)
+24 verbose stack     at Pipe.close (net.js:465:12)
+25 verbose cwd /Users/moises404/Dropbox/Moises/Dev/React/ReactWeek/day-1/react-todo-collection
+26 error Darwin 14.3.0
+27 error argv "node" "/Users/moises404/local/bin/npm" "install" "react/addons" "--save"
+28 error node v0.10.29
+29 error npm  v2.1.18
+30 error code 128
+31 error Command failed: Cloning into bare repository '/Users/moises404/.npm/_git-remotes/ssh-git-github-com-react-addons-69e672b5'...
+31 error Permission denied (publickey).
+31 error fatal: Could not read from remote repository.
+31 error
+31 error Please make sure you have the correct access rights
+31 error and the repository exists.
+32 error If you need help, you may report this error at:
+32 error     <http://github.com/npm/npm/issues>
+33 verbose exit [ 1, true ]
